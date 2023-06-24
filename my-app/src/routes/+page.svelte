@@ -1,4 +1,7 @@
 <script>
+
+
+
   let process;
   let msg = "";
   $: msgLength = msg.split("").length;
