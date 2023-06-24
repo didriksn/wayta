@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link href="./_app/immutable/assets/2.00fcaef9.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.6eca821d.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.e108d1fd.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.7193c086.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.b327f4e0.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.c5af3f48.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.5e58a435.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.f508b629.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <body class="svelte-1eyakd"><div class="form svelte-1eyakd"><textarea class="write svelte-1eyakd" id="write" placeholder="What's on your mind?"></textarea> <div class="text-related svelte-1eyakd"><div class="process svelte-1eyakd"></div> <button class="not-submit svelte-1eyakd" disabled data-svelte-h="svelte-14hevj3">Submit<br></button> <p class="char svelte-1eyakd" data-svelte-h="svelte-1oxaqvz">(Message must be more than three characters long)</p></div></div> <div class="display svelte-1eyakd" id="display">undefined<button class="gen-new svelte-1eyakd">Generate new message 0</button></div> </body> 
+			
+			<script>
+				{
+					__sveltekit_a4hej6 = {
+						assets: "/sveltekit-gh-pages",
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.6eca821d.js"),
+						import("./_app/immutable/entry/app.b327f4e0.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
